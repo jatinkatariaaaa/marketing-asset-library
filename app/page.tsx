@@ -12,9 +12,9 @@ export default function Page() {
           TPP Marketing Asset Library
         </h1>
         <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-          {assets.length} production-ready creatives in the light marble luxury
-          style. Filter by category and download any asset as a PNG. Files live
-          in{' '}
+          {assets.length} production-ready creatives — bold dark Instagram
+          posts plus the marble luxury poster set. Filter by category and
+          download any asset as a PNG. Files live in{' '}
           <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">
             /public/assets
           </code>{' '}

@@ -7,6 +7,7 @@ export type Asset = {
 
 export const categories = [
   'All',
+  'Instagram',
   'Branding',
   'Accounts',
   'Payouts',
@@ -20,6 +21,72 @@ export const categories = [
 ] as const
 
 export const assets: Asset[] = [
+  {
+    name: 'Payout Proof — $120K',
+    file: '/assets/instagram/payout-proof.png',
+    category: 'Instagram',
+    description: 'Highest single payout flex post. Square 1:1.',
+  },
+  {
+    name: 'Flash Sale 50% Off',
+    file: '/assets/instagram/flash-sale-50.png',
+    category: 'Instagram',
+    description: '50% off promo with code FIRSTTPP. Square 1:1.',
+  },
+  {
+    name: 'Instant Funding',
+    file: '/assets/instagram/instant-funding.png',
+    category: 'Instagram',
+    description: 'No evaluation, trade real capital today. Square 1:1.',
+  },
+  {
+    name: '90% Profit Split',
+    file: '/assets/instagram/profit-split-90.png',
+    category: 'Instagram',
+    description: 'Keep up to 90% of your profits. Square 1:1.',
+  },
+  {
+    name: 'Paid in Under 24 Hours',
+    file: '/assets/instagram/payouts-24h.png',
+    category: 'Instagram',
+    description: 'Payout speed creative with trust stats. Square 1:1.',
+  },
+  {
+    name: 'Get Funded up to $200K',
+    file: '/assets/instagram/funding-200k.png',
+    category: 'Instagram',
+    description: 'Six account sizes from $59. Square 1:1.',
+  },
+  {
+    name: 'One Step Challenge',
+    file: '/assets/instagram/one-step-challenge.png',
+    category: 'Instagram',
+    description: 'One step, one target, funded. Square 1:1.',
+  },
+  {
+    name: 'Scale Without Limits',
+    file: '/assets/instagram/scale-without-limits.png',
+    category: 'Instagram',
+    description: 'Auto-scaling $25K to $200K. Square 1:1.',
+  },
+  {
+    name: 'Discipline Pays',
+    file: '/assets/instagram/discipline-pays.png',
+    category: 'Instagram',
+    description: 'Typography-driven motivational post. Square 1:1.',
+  },
+  {
+    name: '100% Fee Refund',
+    file: '/assets/instagram/fee-refund.png',
+    category: 'Instagram',
+    description: 'Full fee refund with first payout. Square 1:1.',
+  },
+  {
+    name: 'Global Community',
+    file: '/assets/instagram/global-community.png',
+    category: 'Instagram',
+    description: '10,000+ traders across 150+ countries. Square 1:1.',
+  },
   {
     name: 'TPP Brand Monogram',
     file: '/assets/branding/tpp-brand-monogram.png',
