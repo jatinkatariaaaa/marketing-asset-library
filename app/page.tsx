@@ -1,23 +1,30 @@
+import { AssetGallery } from '@/components/asset-gallery'
+import { assets } from '@/lib/assets'
+
 export default function Page() {
   return (
-    <main className="relative flex min-h-screen items-center justify-center bg-[color:light-dark(#fff,#000)] text-[color:light-dark(#000,#fff)]">
-      <svg
-        aria-hidden="true"
-        className="size-20"
-        fill="none"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="currentColor"
-        strokeWidth="0.5"
-      >
-        <path
-          d="M14.2 14.2H17V6.9375C17 4.76288 15.2371 3 13.0625 3H5.8V5.8M14.2 14.2V7.79063L7.79062 14.2H14.2ZM14.2 14.2V17H6.9375C4.76288 17 3 15.2371 3 13.0625V5.8H5.8M5.8 5.8V12.2313L12.2313 5.8H5.8Z"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <p className="absolute left-1/2 top-[calc(50%+56px)] -translate-x-1/2 whitespace-nowrap text-sm font-medium text-muted-foreground">
-        Your v0 generation will show here.
-      </p>
+    <main className="mx-auto min-h-screen w-full max-w-6xl px-4 py-10 md:px-8 md:py-14">
+      <header className="mb-10 flex flex-col gap-3">
+        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-muted-foreground">
+          The People Prop — Luxury Prop Trading Firm
+        </p>
+        <h1 className="text-3xl font-bold tracking-tight text-foreground text-balance md:text-4xl">
+          TPP Marketing Asset Library
+        </h1>
+        <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
+          {assets.length} production-ready creatives in the light marble luxury
+          style. Filter by category and download any asset as a PNG. Files live
+          in{' '}
+          <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">
+            /public/assets
+          </code>{' '}
+          organized by category folder.
+        </p>
+      </header>
+      <AssetGallery />
+      <footer className="mt-14 border-t border-border pt-6 text-center text-xs uppercase tracking-[0.3em] text-muted-foreground">
+        thepeopleprop.live
+      </footer>
     </main>
   )
 }
