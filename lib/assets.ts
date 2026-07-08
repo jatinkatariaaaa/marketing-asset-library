@@ -88,6 +88,12 @@ export const assets: Asset[] = [
     description: '10,000+ traders across 150+ countries. Square 1:1.',
   },
   {
+    name: 'Start Your Journey — Brand Hero',
+    file: '/assets/instagram/free-trial-brand.png',
+    category: 'Instagram',
+    description: '3D glass TPP logo hero post. Square 1:1.',
+  },
+  {
     name: 'TPP Brand Monogram',
     file: '/assets/branding/tpp-brand-monogram.png',
     category: 'Branding',
