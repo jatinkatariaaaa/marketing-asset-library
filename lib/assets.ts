@@ -269,4 +269,46 @@ export const assets: Asset[] = [
     category: 'Instagram',
     description: 'Duotone brand portrait ad with Learn More bar. Square 1:1.',
   },
+  {
+    name: 'Giveaway — Tag 3 Traders',
+    file: '/assets/instagram/giveaway-tag-3-friends.png',
+    category: 'Instagram',
+    description: '5x $10K funded accounts giveaway with tag mechanics. Square 1:1.',
+  },
+  {
+    name: 'Red Flags vs Green Flags',
+    file: '/assets/instagram/red-flags-green-flags.png',
+    category: 'Instagram',
+    description: 'Prop firm comparison — red flags vs TPP green flags. Square 1:1.',
+  },
+  {
+    name: 'How Payouts Work — 3 Steps',
+    file: '/assets/instagram/how-payouts-work.png',
+    category: 'Instagram',
+    description: 'Glass steps explaining the payout process. Square 1:1.',
+  },
+  {
+    name: 'Myth vs Fact',
+    file: '/assets/instagram/myth-vs-fact.png',
+    category: 'Instagram',
+    description: 'Myth-busting glass cards on prop firm payouts. Square 1:1.',
+  },
+  {
+    name: '3 Rules of Trading Psychology',
+    file: '/assets/instagram/trading-psychology-rules.png',
+    category: 'Instagram',
+    description: 'Glass head with lime brain — psychology rules. Square 1:1.',
+  },
+  {
+    name: 'Your Road to Funded',
+    file: '/assets/instagram/journey-to-funded.png',
+    category: 'Instagram',
+    description: 'Glass path to summit — trader journey roadmap. Square 1:1.',
+  },
+  {
+    name: 'Ask Us Anything',
+    file: '/assets/instagram/ask-us-anything.png',
+    category: 'Instagram',
+    description: 'Glass question mark AMA engagement post. Square 1:1.',
+  },
 ]

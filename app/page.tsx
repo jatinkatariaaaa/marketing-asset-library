@@ -1,9 +1,11 @@
 import { AssetGallery } from '@/components/asset-gallery'
+import { SiteNav } from '@/components/site-nav'
 import { assets } from '@/lib/assets'
 
 export default function Page() {
   return (
     <main className="mx-auto min-h-screen w-full max-w-6xl px-4 py-10 md:px-8 md:py-14">
+      <SiteNav />
       <header className="mb-10 flex flex-col gap-3">
         <p className="text-xs font-semibold uppercase tracking-[0.25em] text-muted-foreground">
           The People Prop — Luxury Prop Trading Firm
