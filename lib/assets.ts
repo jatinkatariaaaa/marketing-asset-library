@@ -8,9 +8,100 @@ export type Asset = {
 export const categories = [
   'All',
   'Instagram',
+  'X (Twitter)',
 ] as const
 
 export const assets: Asset[] = [
+  {
+    name: 'X Profile Banner — Capital for the Fearless',
+    file: '/assets/x/x-header-banner.png',
+    category: 'X (Twitter)',
+    description: 'Profile header banner. Wide 3:1 — resize to 1500x500 on upload.',
+  },
+  {
+    name: 'X Launch — We Have Arrived',
+    file: '/assets/x/launch-announcement.png',
+    category: 'X (Twitter)',
+    description: 'Launch announcement hero with 3D glass TPP logo. 16:9.',
+  },
+  {
+    name: 'X Payout Proof — $120K',
+    file: '/assets/x/payout-proof-120k.png',
+    category: 'X (Twitter)',
+    description: 'Highest single payout flex creative. 16:9.',
+  },
+  {
+    name: 'X Get Funded up to $200K',
+    file: '/assets/x/funding-200k.png',
+    category: 'X (Twitter)',
+    description: 'Six account sizes from $59. 16:9.',
+  },
+  {
+    name: 'X Payouts in Under 24 Hours',
+    file: '/assets/x/payouts-24h.png',
+    category: 'X (Twitter)',
+    description: 'Lightning bolt payout speed creative. 16:9.',
+  },
+  {
+    name: 'X Flash Sale 50% Off',
+    file: '/assets/x/flash-sale-50.png',
+    category: 'X (Twitter)',
+    description: '50% off promo with code FIRSTTPP. 16:9.',
+  },
+  {
+    name: 'X 90% Profit Split',
+    file: '/assets/x/profit-split-90.png',
+    category: 'X (Twitter)',
+    description: 'Keep up to 90% of your profits. 16:9.',
+  },
+  {
+    name: 'X One Step Challenge',
+    file: '/assets/x/one-step-challenge.png',
+    category: 'X (Twitter)',
+    description: 'One step, one target, funded. 16:9.',
+  },
+  {
+    name: 'X Milestone — $2.5M Paid',
+    file: '/assets/x/milestone-2-5m.png',
+    category: 'X (Twitter)',
+    description: 'Celebratory milestone typography. 16:9.',
+  },
+  {
+    name: 'X Giveaway — Funded Accounts',
+    file: '/assets/x/giveaway-funded-accounts.png',
+    category: 'X (Twitter)',
+    description: '5x $10K giveaway with repost mechanics. 16:9.',
+  },
+  {
+    name: 'X Discipline Pays',
+    file: '/assets/x/discipline-pays.png',
+    category: 'X (Twitter)',
+    description: 'Typography-driven motivational creative. 16:9.',
+  },
+  {
+    name: 'X Global Community',
+    file: '/assets/x/global-community.png',
+    category: 'X (Twitter)',
+    description: 'Glass globe — 10,000+ traders, 150+ countries. 16:9.',
+  },
+  {
+    name: 'X Start With Only $9',
+    file: '/assets/x/start-with-only-9.png',
+    category: 'X (Twitter)',
+    description: 'Low entry price hero. 16:9.',
+  },
+  {
+    name: 'X Payout Guarantee — 3 Days',
+    file: '/assets/x/payout-guarantee.png',
+    category: 'X (Twitter)',
+    description: 'Glass shield — paid in 3 days or extra $250. 16:9.',
+  },
+  {
+    name: 'X Trade The News',
+    file: '/assets/x/trade-the-news.png',
+    category: 'X (Twitter)',
+    description: 'Chart breaking through clouds — no restrictions. 16:9.',
+  },
   {
     name: 'Payout Proof — $120K',
     file: '/assets/instagram/payout-proof.png',

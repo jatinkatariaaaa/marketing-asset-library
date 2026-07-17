@@ -5,8 +5,10 @@ import { usePathname } from 'next/navigation'
 
 const links = [
   { href: '/', label: 'Asset Library' },
-  { href: '/planner', label: 'Content Planner' },
-  { href: '/strategy', label: 'Growth Strategy' },
+  { href: '/planner', label: 'IG Planner' },
+  { href: '/strategy', label: 'IG Strategy' },
+  { href: '/x-planner', label: 'X Planner' },
+  { href: '/x-strategy', label: 'X Strategy' },
 ]
 
 export function SiteNav() {
