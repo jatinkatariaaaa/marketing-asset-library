@@ -43,7 +43,7 @@ export function AssetGallery() {
           >
             <div
               className={`relative w-full overflow-hidden bg-muted ${
-                asset.category === 'X (Twitter)' ? 'aspect-video' : 'aspect-[2/3]'
+                asset.category === 'X (Twitter)' ? 'aspect-square' : 'aspect-[2/3]'
               }`}
             >
               <Image
@@ -51,7 +51,7 @@ export function AssetGallery() {
                 alt={asset.name}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                className="object-contain transition-transform duration-300 group-hover:scale-[1.02]"
               />
             </div>
             <div className="flex flex-1 flex-col gap-2 p-4">
