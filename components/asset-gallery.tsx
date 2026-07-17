@@ -41,7 +41,11 @@ export function AssetGallery() {
             key={asset.file}
             className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-shadow hover:shadow-md"
           >
-            <div className="relative aspect-[2/3] w-full overflow-hidden bg-muted">
+            <div
+              className={`relative w-full overflow-hidden bg-muted ${
+                asset.category === 'X (Twitter)' ? 'aspect-video' : 'aspect-[2/3]'
+              }`}
+            >
               <Image
                 src={asset.file || '/placeholder.svg'}
                 alt={asset.name}

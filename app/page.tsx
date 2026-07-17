@@ -14,7 +14,8 @@ export default function Page() {
           TPP Marketing Asset Library
         </h1>
         <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-          {assets.length} production-ready cinematic Instagram creatives.
+          {assets.length} production-ready cinematic creatives for Instagram
+          (1:1) and X / Twitter (16:9 + profile banner).
           Filter by category and download any asset as a PNG. Files live in{' '}
           <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">
             /public/assets
